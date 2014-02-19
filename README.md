@@ -1,4 +1,4 @@
-BriteWeather is a simple menubar application for presenting current weather conditions.
+BriteWeather is a simple OS X menubar application for presenting current weather conditions.
 
 ## Data
 
