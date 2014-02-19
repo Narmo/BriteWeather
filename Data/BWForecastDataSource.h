@@ -7,18 +7,14 @@
 //
 
 @interface BWForecastDataSource : NSObject {
-	NSDictionary *forecast;
-	NSImage *icon;
-	NSString *url;
-
 	BOOL updating;
 }
 
 @property (nonatomic, assign) id target;
 @property (nonatomic, readonly) NSDictionary *forecast;
-@property (nonatomic, readonly) NSImage *icon;
 @property (nonatomic, readonly) NSString *url;
 
++ (instancetype)sharedInstance;
 - (void)update;
 - (void)loadWeatherIcon;
 

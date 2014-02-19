@@ -12,3 +12,10 @@
 #else
 #define TRACE(a, ...)
 #endif
+
+#define APPID							@""
+
+#define API_PREFIX						@"http://api.openweathermap.org/data/2.5"
+
+#define SETTINGS_CITY					@"city"
+#define SETTINGS_METRIC_UNITS			@"metric_units"

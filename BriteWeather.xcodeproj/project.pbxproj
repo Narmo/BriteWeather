@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AF16C44616E397F6005F6491 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF16C44516E397F6005F6491 /* CoreLocation.framework */; };
-		AF16C44816E39912005F6491 /* BWCityWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF16C44716E39912005F6491 /* BWCityWindow.xib */; };
-		AF16C44B16E39A17005F6491 /* BWCityWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = AF16C44A16E39A17005F6491 /* BWCityWindow.m */; };
-		AF16C44E16E39EC5005F6491 /* BWCityWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF16C44D16E39EC5005F6491 /* BWCityWindowController.m */; };
 		AF6C3B4316E3961E0014BE8F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF6C3B4116E3961E0014BE8F /* Localizable.strings */; };
 		AF82AD8616DB87F400A10E78 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF82AD8516DB87F400A10E78 /* Cocoa.framework */; };
 		AF82AD9216DB87F400A10E78 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF82AD9116DB87F400A10E78 /* main.m */; };
@@ -18,15 +14,11 @@
 		AF82ADA516DB8A9A00A10E78 /* BWForecastDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = AF82ADA416DB8A9A00A10E78 /* BWForecastDataSource.m */; };
 		AF82ADAD16DB8E9800A10E78 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF82ADAC16DB8E9800A10E78 /* MainMenu.xib */; };
 		AF82ADC516DBB56F00A10E78 /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = AF82ADC416DBB56F00A10E78 /* icon.icns */; };
+		AFAE509E18B50BC3008287DE /* BWSettingsWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFAE509C18B50BC3008287DE /* BWSettingsWindowController.m */; };
+		AFAE50A518B52726008287DE /* BWSettingsWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFAE50A318B52726008287DE /* BWSettingsWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF16C44516E397F6005F6491 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		AF16C44716E39912005F6491 /* BWCityWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BWCityWindow.xib; sourceTree = "<group>"; };
-		AF16C44916E39A17005F6491 /* BWCityWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCityWindow.h; sourceTree = "<group>"; };
-		AF16C44A16E39A17005F6491 /* BWCityWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCityWindow.m; sourceTree = "<group>"; };
-		AF16C44C16E39EC5005F6491 /* BWCityWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BWCityWindowController.h; sourceTree = "<group>"; };
-		AF16C44D16E39EC5005F6491 /* BWCityWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BWCityWindowController.m; sourceTree = "<group>"; };
 		AF6C3B4216E3961E0014BE8F /* en */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AF82AD8216DB87F400A10E78 /* BriteWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BriteWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF82AD8516DB87F400A10E78 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -42,6 +34,11 @@
 		AF82ADA416DB8A9A00A10E78 /* BWForecastDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWForecastDataSource.m; path = Data/BWForecastDataSource.m; sourceTree = "<group>"; };
 		AF82ADAC16DB8E9800A10E78 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		AF82ADC416DBB56F00A10E78 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		AFAE509B18B50BC3008287DE /* BWSettingsWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BWSettingsWindowController.h; path = BriteWeather/BWSettingsWindowController.h; sourceTree = SOURCE_ROOT; };
+		AFAE509C18B50BC3008287DE /* BWSettingsWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BWSettingsWindowController.m; path = BriteWeather/BWSettingsWindowController.m; sourceTree = SOURCE_ROOT; };
+		AFAE50A418B52726008287DE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BWSettingsWindowController.xib; sourceTree = "<group>"; };
+		AFAE50A618B52786008287DE /* ru */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ru; path = ru.lproj/BWSettingsWindowController.xib; sourceTree = "<group>"; };
+		AFAE50A718B52786008287DE /* ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF16C44616E397F6005F6491 /* CoreLocation.framework in Frameworks */,
 				AF82AD8616DB87F400A10E78 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +77,6 @@
 			children = (
 				AF82AD8716DB87F400A10E78 /* Other Frameworks */,
 				AF82AD8516DB87F400A10E78 /* Cocoa.framework */,
-				AF16C44516E397F6005F6491 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -102,10 +97,8 @@
 				AF82AD8C16DB87F400A10E78 /* Supporting Files */,
 				AF82AD9716DB87F400A10E78 /* BWAppDelegate.h */,
 				AF82AD9816DB87F400A10E78 /* BWAppDelegate.m */,
-				AF16C44916E39A17005F6491 /* BWCityWindow.h */,
-				AF16C44A16E39A17005F6491 /* BWCityWindow.m */,
-				AF16C44C16E39EC5005F6491 /* BWCityWindowController.h */,
-				AF16C44D16E39EC5005F6491 /* BWCityWindowController.m */,
+				AFAE509B18B50BC3008287DE /* BWSettingsWindowController.h */,
+				AFAE509C18B50BC3008287DE /* BWSettingsWindowController.m */,
 			);
 			path = BriteWeather;
 			sourceTree = "<group>";
@@ -132,7 +125,7 @@
 		AF82ADAB16DB8E9800A10E78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AF16C44716E39912005F6491 /* BWCityWindow.xib */,
+				AFAE50A318B52726008287DE /* BWSettingsWindowController.xib */,
 				AF82ADC416DBB56F00A10E78 /* icon.icns */,
 				AF6C3B4116E3961E0014BE8F /* Localizable.strings */,
 				AF82ADAC16DB8E9800A10E78 /* MainMenu.xib */,
@@ -176,6 +169,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
 			);
 			mainGroup = AF82AD7916DB87F400A10E78;
 			productRefGroup = AF82AD8316DB87F400A10E78 /* Products */;
@@ -193,9 +187,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF82ADAD16DB8E9800A10E78 /* MainMenu.xib in Resources */,
+				AFAE50A518B52726008287DE /* BWSettingsWindowController.xib in Resources */,
 				AF82ADC516DBB56F00A10E78 /* icon.icns in Resources */,
 				AF6C3B4316E3961E0014BE8F /* Localizable.strings in Resources */,
-				AF16C44816E39912005F6491 /* BWCityWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,8 +203,7 @@
 				AF82AD9216DB87F400A10E78 /* main.m in Sources */,
 				AF82AD9916DB87F400A10E78 /* BWAppDelegate.m in Sources */,
 				AF82ADA516DB8A9A00A10E78 /* BWForecastDataSource.m in Sources */,
-				AF16C44B16E39A17005F6491 /* BWCityWindow.m in Sources */,
-				AF16C44E16E39EC5005F6491 /* BWCityWindowController.m in Sources */,
+				AFAE509E18B50BC3008287DE /* BWSettingsWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +214,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				AF6C3B4216E3961E0014BE8F /* en */,
+				AFAE50A718B52786008287DE /* ru */,
 			);
 			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		AFAE50A318B52726008287DE /* BWSettingsWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFAE50A418B52726008287DE /* en */,
+				AFAE50A618B52786008287DE /* ru */,
+			);
+			name = BWSettingsWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
