@@ -8,6 +8,10 @@ This application uses data from OpenWeatherMap. In order to use their API proper
 #define APPID @"<your own APPID goes here>"
 ```
 
+## Screenshot
+
+![Menu](https://raw.githubusercontent.com/Narmo/BriteWeather/master/Screenshots/menu-screenshot.png)
+
 ## Download
 
 Latest version may be obtained [here](https://drive.google.com/file/d/0B9ZNZbispkESUW1DSWJ3RDJBNTQ/edit?usp=sharing).
