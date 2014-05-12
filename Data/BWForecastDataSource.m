@@ -25,8 +25,13 @@
 		
 		dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
 			@autoreleasepool {
-				NSString *lang = [[NSLocale preferredLanguages] firstObject];
+				NSString *lang = nil;
+				NSArray *preferredLanguages = [NSLocale preferredLanguages];
 				
+				if ([preferredLanguages count]) {
+					lang = preferredLanguages[0];
+				}
+
 				if (!lang) {
 					lang = @"en";
 				}
